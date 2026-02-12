@@ -1,0 +1,9 @@
+transformers
+torchaudio
+torchvision
+imageio-ffmpeg
+opencv-python-headless
+scipy
+pandas
+scikit-learn
+numpy==1.26.4

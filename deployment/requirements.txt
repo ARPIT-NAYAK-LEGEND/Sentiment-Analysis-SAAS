@@ -1,0 +1,10 @@
+torch==2.5.1
+torchaudio==2.5.1
+torchvision==0.20.1
+transformers==4.47.1
+opencv-python==4.10.0.84
+openai-whisper==20249300
+numpy==1.26.4
+nvgpu==1.10.0
+soundfile==0.12.1
+ffmpeg-python==0.2.0

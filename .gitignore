@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# TensorBoard logs
+tensorboard_logs/
+runs/
+
+# Large datasets
+dataset/
+*.tar.gz
+*.zip
+*.csv
+*.mp4
+*.avi
+
+# Model files - excluded due to size limits on GitHub
+*.pth
+*.pt
+*.h5
+*.pkl
+checkpoint.pth
+model.pth
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Executables
+*.exe
+
+# Temporary files
+*.log
+*.tmp
