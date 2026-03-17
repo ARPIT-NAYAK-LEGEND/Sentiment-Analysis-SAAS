@@ -3,6 +3,11 @@
 This project implements a **multimodal deep learning model** for **emotion and sentiment classification** using **text, audio, and video** modalities.  
 The model is trained on the **MELD (Multimodal EmotionLines Dataset)** and deployed using **AWS SageMaker** with GPU acceleration.
 
+### 📌 TL;DR (GSOC-ready blurb)
+- Multimodal (text + audio + video) classifier that predicts **7 emotions** and **3 sentiment classes** on the MELD dataset.
+- Encoders: frozen **BERT** for text, **R3D-18** for video, and a **Mel-spectrogram CNN** for audio fused via late fusion.
+- Optimized for **AWS SageMaker** GPU training with TensorBoard/CloudWatch logging and automatic checkpointing.
+
 ---
 
 ## 🚀 Key Features
@@ -67,4 +72,3 @@ The model is trained on the **MELD (Multimodal EmotionLines Dataset)** and deplo
 ---
 
 ## 📦 Project Structure
-
